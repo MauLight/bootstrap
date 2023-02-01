@@ -1,5 +1,7 @@
 import React from "react";
+import Card from "./components/card";
 import Form from "./components/form";
+import ListGroup from "./components/listgroup";
 import Modal from "./components/modal";
 import Nav from "./components/nav";
 
@@ -19,6 +21,8 @@ function App() {
       </div>
       <Modal />
       <Form />
+      <ListGroup />
+      <Card />
     </div>
   );
 }
