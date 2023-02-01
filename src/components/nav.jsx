@@ -2,8 +2,7 @@ import React from "react";
 
 const Nav = () => {
     return (
-        <div className="container-fluid">
-            <nav className="navbar bg-dark">
+            <nav className="navbar bg-light px-3">
                 <a href="#" className="navbar-brand">My Website</a>
                 <ul className="navbar-nav">
                     <li className="navbar-item">
@@ -11,7 +10,6 @@ const Nav = () => {
                     </li>
                 </ul>
             </nav>
-        </div>
     )
 }
 

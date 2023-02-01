@@ -8,8 +8,8 @@ const style = {
 function App() {
   return (
     <div className="container-fluid">
-    <Nav />
       <div className="row">
+        <Nav />
         <div className="col-sm-6 col-md-3" style={style}>One</div>
         <div className="col-sm-6 col-md-3" style={style}>Two</div>
         <div className="col-sm-6 col-md-3" style={style}>Three</div>
