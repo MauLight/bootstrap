@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./components/nav";
 
 const style = {
   "border": "solid 1px black"
@@ -7,6 +8,7 @@ const style = {
 function App() {
   return (
     <div className="container-fluid">
+    <Nav />
       <div className="row">
         <div className="col-sm-6 col-md-3" style={style}>One</div>
         <div className="col-sm-6 col-md-3" style={style}>Two</div>
