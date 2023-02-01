@@ -1,4 +1,6 @@
 import React from "react";
+import Form from "./components/form";
+import Modal from "./components/modal";
 import Nav from "./components/nav";
 
 const style = {
@@ -15,7 +17,8 @@ function App() {
         <div className="col-sm-6 col-md-3" style={style}>Three</div>
         <div className="col-sm-6 col-md-3" style={style}>Four</div>
       </div>
-
+      <Modal />
+      <Form />
     </div>
   );
 }
